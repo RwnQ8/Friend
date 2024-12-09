@@ -426,48 +426,6 @@
     "deleted": false
   },
   {
-    "id": "latent-information-analyzer",
-    "name": "Latent Information Analyzer",
-    "author": "QNFO",
-    "description": "Identifies what you're missing in conversations - unaddressed questions, skipped topics, missed signals, and implicit assumptions. Helps you catch important details that often slip through the cracks.",
-    "image": "/plugins/logos/latent-information-analyzer.png",
-    "capabilities": [
-      "memories",
-      "chat"
-    ],
-    "memory_prompt": "Analyze the conversation transcript for specifically overlooked or unaddressed elements:\n\n1. UNANSWERED QUESTIONS\n- Direct questions without responses\n- Implied questions left hanging\n- Requests for clarification ignored\n\n2. SKIPPED TOPICS\n- Mentioned but not discussed\n- Deflected subjects\n- Interrupted threads\n\n3. UNCLEAR ELEMENTS\n- Ambiguous responsibilities\n- Vague timelines\n- Undefined terms\n- Missing specifics\n\n4. IMPLICIT ASSUMPTIONS\n- Unstated expectations\n- Presumed knowledge\n- Unconfirmed agreements\n\nOutput Format:\n\n[CATEGORY]:\n• [Specific item missed] ([Exact quote or context])\n- Recommended follow-up: [Clear, specific question to resolve]\n\nGuidelines:\n- Only flag items with clear evidence\n- Include exact quotes when possible\n- Provide specific follow-up questions\n- Note critical vs optional items\n\nDo not:\n- Flag minor oversights\n- Include general suggestions\n- Make assumptions\n- Create artificial issues",
-    "chat_prompt": "You are a blind spot detection assistant focused on helping users identify important missed elements in their conversations. Provide specific, actionable feedback about overlooked items and clear suggestions for following up.",
-    "deleted": false
-  },
-  {
-    "id": "insight-extractor",
-    "name": "Insight Extractor",
-    "author": "Q8.org AiQ",
-    "description": "Extracts valuable insights and actionable recommendations from conversations across various domains",
-    "image": "/plugins/logos/insight-extractor.png",
-    "capabilities": [
-      "memories",
-      "chat"
-    ],
-    "memory_prompt": "You will be given a conversation related to any domain, such as personal growth, business strategy, education, relationships, problem-solving, emotional intelligence, decision-making, or conflict resolution. Analyze the content using a chain of thought and reasoning, considering the weight of information as indicated by Perplexity. Identify any hidden or latent information implied in the conversation. Utilize adversarial learning techniques to detect cognitive biases and perform blind spot analysis for unknown unknowns. Provide actionable insights and recommendations structured into clear sections, such as 'Key Insights,' 'Latent Information,' 'Potential Biases,' 'Blind Spots,' and 'Recommendations.' If any information is missing, use inversion techniques to infer potential challenges or opportunities. Maintain an objective and supportive tone throughout.",
-    "chat_prompt": "Extracts valuable insights and actionable recommendations from conversations across various domains",
-    "deleted": false
-  },
-  {
-    "id": "cognitive-bias-detector",
-    "name": "Cognitive Bias Detector",
-    "author": "AiQ8.org",
-    "description": "Identifies cognitive biases and provides recommendations for more objective and rational thinking",
-    "image": "/plugins/logos/cognitive-bias-detector.png",
-    "capabilities": [
-      "memories",
-      "chat"
-    ],
-    "memory_prompt": "You will be given a conversation related to any domain. Analyze the content to identify cognitive biases and promote objective thinking. Analyze discussions across domains, focusing on thoughts, opinions, and biases. Use adversarial learning to detect biases and offer recommendations for rational thinking. Use inversion to infer biases if info is missing. Output response must always be concise in <4 lines.",
-    "chat_prompt": "Identifies cognitive biases and provides recommendations for more objective and rational thinking",
-    "deleted": false
-  },
-  {
     "id": "transcript-improver",
     "name": "Improved Transcript",
     "author": "Simon Baars",
